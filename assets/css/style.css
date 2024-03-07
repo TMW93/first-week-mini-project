@@ -31,17 +31,13 @@ nav a {
 nav:hover a {
   cursor: pointer;
 }
-s
-/* Placeholder image */
-.placeholder-image {
-  height: 800px;
-  width: 100%;
-  background-image: url("../images/cryingcat.jpeg");
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 25px;
 
-}
+/* Main Styles */
+ .cat-link:hover {
+  cursor: pointer;
+  color: rgb(11, 16, 97);
+  text-decoration-line: underline;
+ }
 
 /* Screen Resolution */
 @media screen and (max-width:768px) {
